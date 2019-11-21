@@ -10,7 +10,8 @@ const items = $('.nav-item') ;
       $(this).addClass('active') ;
 });
 
-$('#title.link').on('click', function(){
+$('#title').on('click', function(){
+  console.log("ok");
     items.removeClass('active') ;
     items.first().addClass('active') ;
   })
