@@ -1,6 +1,4 @@
-body{
 
-}
 nav {
   background-color: white;
   position: sticky;
@@ -35,6 +33,7 @@ header  {
 
 img {
   width: 100%;
+  display: flex;
 }
 
 footer{
