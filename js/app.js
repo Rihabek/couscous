@@ -10,7 +10,7 @@ const items = $('.nav-item') ;
       $(this).addClass('active') ;
 });
 
-$('#title').on('click', function(){
+$('#active').on('click', function(){
   console.log("ok");
     items.removeClass('active') ;
     items.first().addClass('active') ;
